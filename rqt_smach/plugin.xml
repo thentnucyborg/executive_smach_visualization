@@ -1,20 +1,15 @@
 <library path="src">
-  <class name="SMACH Visualization" type="rqt_smach.rqt_smach.SMACHVisualization" base_class_type="rqt_gui_py::Plugin">
+  <class name="rqt_smach" type="rqt_smach.rqt_smach.Smach" base_class_type="rqt_gui_py::Plugin">
     <description>
-      A Python GUI plugin to visualize SMACH plans.
+      An RQT plugin for interacting with the smach.
     </description>
     <qtgui>
-      <!-- optional grouping...
       <group>
-        <label>Group</label>
+        <label>Control</label>
       </group>
-      <group>
-        <label>Subgroup</label>
-      </group>
-      -->
-      <label>SMACH</label>
+      <label>Smach</label>
       <icon type="theme">system-help</icon>
-      <statustip>SMACH Viewer</statustip>
+      <statustip>Use to visualize dot graphs over ROS.</statustip>
     </qtgui>
   </class>
 </library>
