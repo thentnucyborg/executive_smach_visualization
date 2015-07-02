@@ -63,7 +63,7 @@ When you click on a node, that node will be selected which means the
 border color will change until you select a different node, and it's  
 user data (if any) will be shown in the right hand box.   
 
-![alt text](/rqt_smach_4_click.png)
+![alt text](rqt_smach_4_click.png)
 
 Once a node is selected, you can set it as the initial state of a  
 server by using the button in the lower right corner of the window.  
@@ -71,47 +71,47 @@ Once this change is made, you can see the server label move to point
 at the new initial state. Initial states are outlined in black rather  
 than red.
 
-![alt text](/rqt_smach_5_set_initial.png)
+![alt text](rqt_smach_5_set_initial.png)
 
 You can use the depth spinner to expand or collapse sub state machines  
 and the label width spinner to limit the label width.  
 
-![alt text](/rqt_smach_6_depth.png)
+![alt text](rqt_smach_6_depth.png)
 
 If you selected the Show Implicit button, all transitions will be  
 shown.  
 
-![alt text](/rqt_smach_7_implicit.png)
+![alt text](rqt_smach_7_implicit.png)
 
 You can zoom and pan the graph using keyboard shortcuts explained when  
 you press the'?' button.  
 
-![alt text](/rqt_smach_8_keyboard.png)
+![alt text](rqt_smach_8_keyboard.png)
 
 With Auto Zoom set, when you select a different path of the graph to  
 view, it will automatically zoom to fit.  
 
-![alt text](/rqt_smach_9_autozoom.png)
+![alt text](rqt_smach_9_autozoom.png)
 
 However you can disable that feature by deselecting that button.  
 
-![alt text](/rqt_smach_10_nozoom.png)
+![alt text](rqt_smach_10_nozoom.png)
 
 Rqt_smach also come with a tree view which you can use to view the  
 state machine structure.  
 
-![alt text](/rqt_smach_11_tree.png)
+![alt text](rqt_smach_11_tree.png)
 
 With the tree view you are also able to select nodes, view their user  
 data, and set them as the initial state.  
 
-![alt text](/rqt_smach_12_treeclick.png)
+![alt text](rqt_smach_12_treeclick.png)
 
 When a state machine is running, the color of the nodes reflect which  
 states are currently active.  
 
-![alt text](/rqt_smach_running_1.png)
+![alt text](rqt_smach_running_1.png)
 
-![alt text](/rqt_smach_running_2.png)
+![alt text](rqt_smach_running_2.png)
 
-![alt text](/rqt_smach_running_3.png)
+![alt text](rqt_smach_running_3.png)
