@@ -1,4 +1,4 @@
-<package>
+<package format="2">
   <name>smach_viewer</name>
   <version>2.0.0</version>
   <description>
@@ -23,10 +23,9 @@
 
   <build_depend>rostest</build_depend>
 
-  <!-- Dependencies needed after this package is compiled. -->
-  <run_depend>smach_ros</run_depend>
-  <run_depend>xdot</run_depend>
-  <run_depend>smach_msgs</run_depend>
+  <exec_depend>smach_ros</exec_depend>
+  <exec_depend>xdot</exec_depend>
+  <exec_depend>smach_msgs</exec_depend>
 
   <export>
 
