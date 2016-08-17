@@ -20,12 +20,13 @@ import smach_ros
 
 from qt_gui.plugin import Plugin
 from python_qt_binding import loadUi
-from python_qt_binding.QtGui import QWidget
+from python_qt_binding.QtWidgets import QWidget
 from python_qt_binding.QtGui import QPalette,QPen
-from python_qt_binding.QtGui import QStyle,QApplication,QMouseEvent
+from python_qt_binding.QtWidgets import QStyle,QApplication,QItemDelegate,QStyleOptionButton
+from python_qt_binding.QtGui import QMouseEvent
 from python_qt_binding.QtCore import Qt
 from python_qt_binding.QtCore import Signal,Slot
-from python_qt_binding.QtGui import QWidget,QPalette,QColor,QStandardItemModel,QItemDelegate,QStyleOptionButton,QStandardItem,QIcon
+from python_qt_binding.QtGui import QPalette,QColor,QStandardItemModel,QStandardItem,QIcon
 from python_qt_binding.QtCore import Qt,QTimer,Signal,QRect,QSize,QEvent
 from rqt_py_common.extended_combo_box import ExtendedComboBox
 from qt_gui_py_common.worker_thread import WorkerThread

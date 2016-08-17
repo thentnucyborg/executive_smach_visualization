@@ -6,18 +6,19 @@ import time
 
 from qt_gui.plugin import Plugin
 from python_qt_binding import loadUi
-from python_qt_binding.QtGui import QWidget
-from python_qt_binding.QtGui import QPalette
-from python_qt_binding.QtGui import QStyle,QApplication,QMouseEvent
+from python_qt_binding.QtWidgets import QWidget
+from python_qt_binding.QtGui import QPalette,QMouseEvent
+from python_qt_binding.QtWidgets import QStyle,QApplication,QItemDelegate,QStyleOptionButton
 from python_qt_binding.QtCore import Qt
 from python_qt_binding.QtCore import Signal,Slot
-from python_qt_binding.QtGui import QWidget,QPalette,QColor,QStandardItemModel,QItemDelegate,QStyleOptionButton,QStandardItem,QIcon
+from python_qt_binding.QtGui import QPalette,QColor,QStandardItemModel,QStandardItem,QIcon
 from python_qt_binding.QtCore import Qt,QTime,QTimer,Signal,QRect,QSize,QEvent
 from rqt_py_common.extended_combo_box import ExtendedComboBox
 from qt_gui_py_common.worker_thread import WorkerThread
 
-from PyQt4.QtCore import *
-from PyQt4.QtGui import *
+#from PyQt4.QtCore import *
+#from PyQt4.QtGui import *
+from python_qt_binding.QtWidgets import *
 
 import threading
 import pickle
