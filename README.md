@@ -1,4 +1,4 @@
-# executive_smach_visualization
+# Smach visualization
 A ROS-based introspection tool for visualizing the structure and state of SMACH plans.
 
 ### Setup:
